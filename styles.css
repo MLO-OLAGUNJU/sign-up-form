@@ -6,9 +6,7 @@
 
 
 body {
-    /* margin-top: 60px;
-    margin-left: ;
-    padding-right: ; */
+    overflow-y: hidden;
     font-family: 'Poppins', sans-serif;
     background-color: black;
 }
@@ -21,10 +19,15 @@ body {
 
 .logo {
     color: white;
+    font-size: 20px;
+    font-weight: 400;
 }
 
 .right-div {
-    
+    margin-top: 70px;
+    width: 50%;
+    padding-left: 60px;
+    color: white;
 }
 
 .U {
@@ -34,16 +37,96 @@ body {
 .heading-right {
     margin-top: 25px;
     color: white;
-    font-size: 40px;
+    font-size: 35px;
+    max-width: 500px;
 
 }
 
+.content {
+    margin-top: 30px;
+    font-size: 15px;
+    font-weight: 100;
+}
 
+.buttons {
+    margin-top: 40px;
+    display: flex;
+    gap: 20px;
+}
 
+.btn-link-a {
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: 5px ;
+    color: white;
+}
+
+.btn-link-i {
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: 5px ;
+    color: black;
+}
+
+.iphone {
+    border-radius: 30px;
+    font-weight: 100;
+    padding-left: 5px;
+    padding-right: 18px;
+    display: flex;
+    align-items: center;
+    padding-bottom: 6px;
+    padding-top: 6px;
+    background-color: black;
+    outline: 0.3px solid white;
+    color: white;
+    transition: background-color 0.3s ease-out
+}
+
+.iphone:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.Android {
+    padding-left: 18px;
+    font-weight: 100;
+    padding-right: 18px;
+    border-radius: 30px;
+    padding-bottom: 6px;
+    padding-top: 6px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    transition: background-color 0.3s ease-out
+}
+
+.Android:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.image-i {
+    height: 30px;
+    width: 30px;
+}
+
+.image-a {
+    height: 12px;
+    width: 12px;
+}
+
+.foot {
+    margin-top: 80px;
+    font-size: 9px;
+    font-weight: 100;
+}
 
 .left-div {
     background-color: #151515;
-    width: 160vh;
+    width: 50%;
     height: 684px;
     align-items: center;
     justify-content: center;
@@ -53,7 +136,7 @@ body {
     padding-left: 13px;
     padding-top: 13px;
     width: 385px;
-    height: 435px;
+    height: 485px;
     border-radius: 7px;
     background-color: white;
     margin-left: 137px;
@@ -68,19 +151,19 @@ body {
 
 .text {
     margin-top: 3px;
-    margin-bottom: 3px;
+    margin-bottom: 10px;
     font-size: 13px;
 }
 
 input {
     border: beige;
     padding-left: 10px;
-    background-color: rgba(192, 192, 192, 0.2);
+    background-color: rgba(192, 192, 192, 0.1);
     display: block;
     width: 335px;
-    height: 35px;
+    height: 44px;
     margin-right: 20px;
-    box-shadow:  rgba(110, 110, 110, 0.2) 0 3px 0;
+    box-shadow:  rgba(110, 110, 110, 0.1) 0 1.5px 0;
     outline: none;
     border: none;
 }
